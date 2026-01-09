@@ -3,10 +3,10 @@ print("AIM 3: Data Cleaning and Preprocessing")
 print("="*60)
 
 data_dirty = {
-'Feature1': [1, 2, np.nan, 4, 5, 100],
-'Feature2': [10, np.nan, 30, 40, 50, 60],
-'Feature3': ['A', 'B', 'A', 'C', 'B', 'A'],
-'Target': [0, 1, 0, 1, 0, 1]
+    'Feature1': [1, 2, np.nan, 4, 5, 100],
+    'Feature2': [10, np.nan, 30, 40, 50, 60],
+    'Feature3': ['A', 'B', 'A', 'C', 'B', 'A'],
+    'Target': [0, 1, 0, 1, 0, 1]
 }
 
 df_dirty = pd.DataFrame(data_dirty)
