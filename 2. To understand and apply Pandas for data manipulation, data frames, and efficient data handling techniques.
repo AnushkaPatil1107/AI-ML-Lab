@@ -5,10 +5,10 @@ print("AIM 2: Pandas Data Manipulation")
 print("="*60)
 
 data = {
-'Name': ['Alice', 'Bob', 'Charlie', 'David', 'Eve'],
-'Age': [25, 30, 35, 40, 28],
-'Salary': [50000, 60000, 70000, 80000, 55000],
-'Department': ['HR', 'IT', 'Finance', 'IT', 'HR']
+    'Name': ['Alice', 'Bob', 'Charlie', 'David', 'Eve'],
+    'Age': [25, 30, 35, 40, 28],
+    'Salary': [50000, 60000, 70000, 80000, 55000],
+    'Department': ['HR', 'IT', 'Finance', 'IT', 'HR']
 }
 
 df = pd.DataFrame(data)
